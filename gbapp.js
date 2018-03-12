@@ -49,6 +49,7 @@ app.use(function (request, response) {
   response.status(404).render("404")
 })
 
+
 // Listen for an application request on port 8081
 http.listen(8081, function () {
   console.log('Guestbook app listening on http://127.0.0.1:8081/')
